@@ -1,0 +1,180 @@
+@font-face {
+    font-family: main;
+    src: url(./assets//fonts//Urbanist-VariableFont_wght.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+    font-family: main;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem 3rem;
+}
+
+nav .brand {
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+nav .pages {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    gap: 2rem;
+    width: 50%;
+}
+
+nav .pages .page {
+    font-size: 1.2rem;
+    cursor: pointer;
+    padding: 0.25rem 0.5rem;
+    border: 1px solid transparent;
+    border-radius: 30px;
+    transition: all 0.3s ease;
+}
+
+nav .pages .page:nth-child(1) {
+    border: 1px solid #eaeaea;
+}
+
+nav .pages .page:hover {
+    border: 1px solid #eaeaea;
+}
+
+nav .book {
+    background: #0d1a2d;
+    color: white;
+    padding: 0.75rem 1rem;
+    border-radius: 30px;
+    font-size: 1rem;
+    cursor: pointer;
+    outline: none;
+    border: 1px solid #0d1a2d;
+}
+
+/* hero styles  */
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    padding: 7% 0;
+    background: url(./assets/images/hero.jpg);
+    height: 85vh;
+    color: white;
+    margin: 0 3rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 30px;
+    position: relative;
+}
+
+main .main-content {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: column;
+}
+
+main .main-content h1 {
+    font-size: 4.5rem;
+    text-align: center;
+    width: 70%;
+    font-weight: 400;
+}
+
+main .main-content p {
+    font-size: 1.5rem;
+    font-weight: 200;
+    width: 45%;
+    text-align: center;
+}
+
+main .main-content button {
+    background: #0d1a2d;
+    color: white;
+    padding: 0.75rem 1rem;
+    border-radius: 30px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    outline: none;
+    border: 1px solid #0d1a2d;
+    margin-top: 1.5rem;
+}
+
+main .left {
+    position: absolute;
+    bottom: 1rem;
+    left: 1rem;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    width: fit-content;
+}
+
+main p {
+    font-size: 1.5rem;
+    width: 50%;
+}
+
+main .left .images .imgWraper {
+    width: 3rem;
+    border-radius: 50%;
+    height: auto;
+    aspect-ratio: 1 / 1;
+    overflow: hidden;
+}
+
+main .left .images {
+    display: flex;
+    background: rgba(255, 255, 255, 0.336);
+    backdrop-filter: blur(10px);
+    padding: 0.5rem;
+    border-radius: 60px;
+}
+
+main .left .images .imgWraper:nth-child(1) {
+    margin-right: -0.75rem;
+}
+
+main .left .images .imgWraper:nth-child(3) {
+    margin-left: -0.75rem;
+}
+
+main .left .images .imgWraper .person {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+main .right {
+    position: absolute;
+    bottom: 1rem;
+    right: 1rem;
+    width: fit-content;
+    padding: 0.5rem;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+main .right a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.5rem;
+}
