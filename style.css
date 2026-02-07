@@ -178,3 +178,217 @@ main .right a {
     color: white;
     font-size: 1.5rem;
 }
+
+/* about section  */
+
+.about {
+    padding: 3.5rem;
+    border-bottom: 1px solid #eaeaea;
+    padding-bottom: 1rem;
+}
+
+.about .aboutHead {
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+}
+
+.about .aboutHead .aboutText {
+    font-size: 1.2rem;
+    width: fit-content;
+    padding: 0.5rem 0.75rem;
+    border: 1px solid #eaeaea;
+    border-radius: 30px;
+}
+
+.about .aboutHead .aboutContent {
+    font-size: 2.1rem;
+    width: 50%;
+}
+
+.about .aboutGrid {
+    display: flex;
+    justify-content: space-between;
+    gap: 3rem;
+    padding: 2rem;
+}
+
+.about .aboutGrid .aboutGridBox {
+    width: 30%;
+    height: auto;
+    aspect-ratio: 1 / 1;
+    border-radius: 30px;
+}
+
+.about .aboutGrid .aboutGridBox:nth-child(1) {
+    background: #0d1a2d;
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    flex-direction: column;
+    padding: 1rem;
+}
+
+.about .aboutGrid .aboutGridBox:nth-child(2) {
+    background: url(./assets/images/about1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.about .aboutGrid .aboutGridBox:nth-child(3) {
+    background-color: #eaeaea;
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    padding: 2rem;
+    flex-direction: column;
+}
+
+.about .aboutGrid .aboutGridBox .aboutTenisImg {
+    width: 5rem;
+    border-radius: 30px;
+}
+
+.about .aboutGrid .aboutGridBox .aboutGridBoxText {
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 2rem;
+}
+
+.about .aboutGrid .aboutGridBox .aboutGridBoxText .aboutDark {
+    color: white;
+}
+
+.about .aboutGrid .aboutGridBox .gamemode {
+    color: white;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    padding: 0 0.5rem;
+}
+
+.about .aboutGrid .aboutGridBox .gamemode .aboutGameMode {
+    font-size: 1.5rem;
+    opacity: 0.6;
+}
+
+.about .aboutGrid .aboutGridBox .gamemode .aboutToggle {
+    background: #2eb3ff;
+    width: 4rem;
+    height: 2rem;
+    border-radius: 30px;
+    position: relative;
+}
+
+.about .aboutGrid .aboutGridBox .gamemode .aboutToggle .aboutToggleBigCircle {
+    background: white;
+    width: auto;
+    height: 70%;
+    aspect-ratio: 1 / 1;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 10%;
+}
+
+.about .aboutGrid .aboutGridBox .gamemode .aboutToggle .aboutToggleBigCircle .aboutToggleSmallCircle {
+    background: #2eb3ff;
+    position: fixed;
+    height: 50%;
+    width: 50%;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.about .aboutGrid .aboutGridBox .aboutGradientText {
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 1.1rem;
+    background: linear-gradient(to right, rgba(255, 255, 255, 0.6), transparent);
+    backdrop-filter: blur(20px);
+    padding: 1.25rem 1.75rem;
+    border-radius: 50px;
+    width: fit-content;
+    white-space: nowrap;
+}
+
+.about .aboutGrid .aboutGridBox .aboutCoahes .coahNumber {
+    font-size: 4rem;
+}
+
+.about .aboutGrid .aboutGridBox .aboutCoahes .coachText {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+}
+
+.about .aboutGrid .aboutGridBox .aboutCoahes .coachDesc {
+    font-size: 1.2rem;
+    opacity: 0.6;
+}
+
+.about .aboutGrid .aboutGridBox .aboutCoachStats {
+    width: 100%;
+}
+
+.about .aboutGrid .aboutGridBox .statRow {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.about .aboutGrid .aboutGridBox .balls {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 0.2rem;
+}
+
+.about .aboutGrid .aboutGridBox .aboutball {
+    width: 0.9rem;
+    height: auto;
+    aspect-ratio: 1 / 1;
+    display: inline-block;
+    border-radius: 50%;
+    background: #2eb3ff;
+}
+
+.about .aboutGrid .aboutGridBox .statCount {
+    display: flex;
+}
+
+.about .aboutGrid .aboutGridBox .lvlText {
+    width: 6rem;
+}
+
+.about .aboutStats .statText {
+    text-align: center;
+    font-size: 2rem;
+}
+
+.about .aboutStats .stats {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 1rem;
+}
+
+.about .aboutStats .stats .stat .statnum {
+    font-size: 2rem;
+    text-align: center;
+    font-weight: 600;
+}
+
+.about .aboutStats .stats .stat .statDesc {
+    opacity: 0.6;
+}
+
+/* Services Styles */
