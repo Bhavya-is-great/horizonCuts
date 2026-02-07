@@ -392,3 +392,170 @@ main .right a {
 }
 
 /* Services Styles */
+.service {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3rem;
+}
+
+.service .left {
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    flex-direction: column;
+    min-height: 20rem;
+}
+
+.service .left .top .serviceText {
+    font-size: 1.2rem;
+    width: fit-content;
+    padding: 0.5rem 0.75rem;
+    border: 1px solid #eaeaea;
+    border-radius: 30px;
+    margin-bottom: 1rem;
+}
+
+.service .left .top .serviceDesc {
+    font-size: 2rem;
+}
+
+.cta {
+    background: #0d1a2d;
+    color: white;
+    outline: none;
+    border-radius: 30px;
+    padding: 0.5rem 0.75rem;
+    font-size: 1rem;
+}
+
+.service .right {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    min-height: 20rem;
+    width: 55%;
+    grid-gap: 2rem;
+}
+
+.service .right .rleft {
+    background-image: url(./assets//images/services1.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 30px;
+    position: relative;
+}
+
+.service .right .rright {
+    display: grid;
+    grid-gap: 1rem;
+    grid-template-rows: 1.5fr 1fr;
+}
+
+.service .right .rright .rrightTop {
+    border-radius: 30px;
+    background-image: url(./assets//images/services2.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.service .right .rright .rrightBottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    flex-direction: column;
+}
+
+.service .right .rright .rrightBottom .rrbText {
+    width: 65%;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+.service .right .rright .rrightBottom .prevNextBtns {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    width: 100%;
+    font-size: 1.5rem;
+    gap: 1rem;
+}
+
+.service .right .rright .rrightBottom .prevNextBtns .prevBtn,
+.service .right .rright .rrightBottom .prevNextBtns .nextBtn {
+    width: 3rem;
+    height: auto;
+    aspect-ratio: 1 / 1;
+    border-radius: 50%;
+    border: 1px solid #eaeaea;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.service .right .rleft .up {
+    position: absolute;
+    top: 1rem;
+    left: 1rem;
+    color: white;
+    font-size: 1.1rem;
+    background: linear-gradient(to right, rgba(255, 255, 255, 0.6), transparent);
+    backdrop-filter: blur(20px);
+    padding: 1rem 1.5rem;
+    border-radius: 50px;
+    width: fit-content;
+    white-space: nowrap;
+}
+
+.service .right .rleft .low {
+    position: absolute;
+    bottom: 1rem;
+    left: 1rem;
+    font-size: 1.2rem;
+    width: 60%;
+    color: white;
+}
+
+.service .right .rleft .rightb {
+    position: absolute;
+    bottom: 1rem;
+    right: 1rem;
+    border-radius: 50%;
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: fit-content;
+    height: auto;
+    aspect-ratio: 1 / 1;
+    color: white;
+    font-size: 1.5rem;
+    /* border: 1px solid #eaeaea; */
+    backdrop-filter: blur(10px);
+}
+
+.service .right .rright .rrightTop .up {
+    position: absolute;
+    top: 1rem;
+    left: 1rem;
+    color: white;
+    font-size: 1.1rem;
+    background: linear-gradient(to right, rgba(255, 255, 255, 0.6), transparent);
+    backdrop-filter: blur(20px);
+    padding: 1rem 1.5rem;
+    border-radius: 50px;
+    width: fit-content;
+    white-space: nowrap;
+}
+
+.service .right .rright .rrightTop .low {
+    position: absolute;
+    bottom: 1rem;
+    left: 1rem;
+    font-size: 1.2rem;
+    width: 60%;
+    color: white;
+}
