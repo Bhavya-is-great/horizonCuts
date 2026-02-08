@@ -397,6 +397,7 @@ main .right a {
     justify-content: space-between;
     align-items: center;
     padding: 3rem;
+    border-bottom: 1px solid #eaeaea;
 }
 
 .service .left {
@@ -558,4 +559,343 @@ main .right a {
     font-size: 1.2rem;
     width: 60%;
     color: white;
+}
+
+.membership {
+    padding: 3rem;
+    border-radius: 50px;
+    background: #f6f8fc;
+    margin-top: 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+}
+
+.membership  .mleft {
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+}
+
+.membership .mleft .mltop {
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+    background: #2eb3ff;
+    padding: 1rem;
+    border-radius: 30px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.membership .mleft .mltop .mlttop {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.membership .mleft .mltop .mlttop .mlttleft {
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+}
+
+.membership .mleft .mltop .mlttop .mlttleft .highlisght {
+    font-size: 1.2rem;
+    background: linear-gradient(to right, rgba(255, 255, 255, 0.747), transparent);
+    backdrop-filter: blur(50px);
+    padding: 0.75rem 1.25rem;
+    /* border: 1px solid #eaeaea; */
+    border-radius: 30px;
+    color: white;
+}
+
+.membership .mleft .mltop .mlttop .mlttleft .normal {
+    font-size: 2.5rem;
+    padding: 0.5rem;
+    color: white;
+    font-weight: 400;
+}
+
+.membership .mleft .mltop .mlttop .mltright {
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+
+.membership .mleft .mltop .mlttop .mltright .big {
+    font-size: 3rem;
+    color: white;
+}
+
+.membership .mleft .mltop .mlttop .mltright .small {
+    font-size: 1.2rem;
+    padding: 0.5rem;
+    color: white;
+    opacity: 0.6;
+}
+
+.membership .mleft .mltop .mltmid {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.membership .mleft .mltop .mltmid .mltDetail {
+    padding: 0.5rem 1rem;
+    backdrop-filter: blur(20px);
+    border-radius: 30px;
+    border: 0.5px solid #eaeaea4d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    color: white;
+}
+
+.membership .mleft .mltop .mltmid .mltDetail .mltBall {
+    width: 0.5rem;
+    height: auto;
+    aspect-ratio: 1 / 1;
+    border-radius: 50%;
+    background: white;
+}
+
+.membership .mleft .mltlow button {
+    background: #0d1a2d;
+    color: white;
+    padding: 1rem 1.5rem;
+    font-size: 1rem;
+    border-radius: 30px;
+    margin: 1rem 0;
+    outline: none;
+    border: none;
+}
+
+.membership .mleft .mlbottom  {
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    flex-direction: column;
+    margin: 2rem 0;
+    gap: 2rem;
+}
+
+.membership .mleft .mlbottom .plan {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: white;
+    width: 100%;
+    padding: 2rem;
+    border-radius: 20px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.membership .mleft .mlbottom .plan p {
+    font-size: 2rem;
+}
+
+.membership .mleft .mlbottom .plan button {
+    background: #627185;
+    font-size: 1.2rem;
+    border: none;
+    outline: none;
+    padding: 1rem 1.5rem;
+    border-radius: 30px;
+    color: white;
+}
+
+.membership .mright {
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+    padding: 2rem;
+    width: 45%;
+    padding-right: 10%;
+}
+
+.membership .mright .mainBg {
+    width: 20rem;
+}
+
+.membership .mright .roundText {
+    padding: 0.75rem 1.25rem;
+    border: 1px solid #eaeaea;
+    border-radius: 30px;
+    font-size: 1.2rem;
+    margin-top: -1rem;
+}
+
+.membership .mright .darkText {
+    margin: 0.2rem 0;
+    font-size: 3rem;
+    font-weight: 600;
+}
+
+.membership .mright .lightText {
+    font-size: 1.5rem;
+    opacity: 0.6;
+}
+
+.membership .mright .imgCont {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.membership .mright .imgCont .mainBg {
+    opacity: 0.1;
+}
+
+/* Testimonials  */
+.testimonials {
+    display: grid;
+    grid-template-columns: 8fr 7fr 1fr;
+    min-height: 20rem;
+    margin: 4rem;
+    margin-bottom: 20rem;
+}
+
+.testimonials .tleft {
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    flex-direction: column;
+    gap: 5rem;
+}
+
+.testimonials .tleft .testiHead {
+    font-size: 1.2rem;
+    padding: 0.75rem 1.25rem;
+    border: 1px solid #eaeaea;
+    border-radius: 30px;
+    width: fit-content;
+}
+
+.testimonials .tleft .testiDesc {
+    padding: 1rem;
+    font-size: 2rem;
+    padding-right: 2rem;
+}
+
+.testimonials .tleft .trating {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding: 1rem;
+    margin-top: -1.5rem;
+    gap: 1rem;
+}
+
+.testimonials .tleft .trating img {
+    width: 10rem;
+}
+
+.testimonials .tleft .trating p {
+    font-size: 1.8rem;
+}
+
+.testimonials .tleft .tlbottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.testimonials .tleft .tlbottom .identity .name {
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.testimonials .tleft .tlbottom .identity .personPosition {
+    font-size: 1.2rem;
+    opacity: 0.6;
+}
+
+.testimonials .tleft .tlbottom .nextPrevBtns {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    cursor: pointer;
+}
+
+.testimonials .tleft .tlbottom .nextPrevBtns .goBtn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.25rem 0.75rem;
+    border: 1px solid #eaeaea;
+    border-radius: 50%;
+    width: auto;
+    height: auto;
+    aspect-ratio: 1 / 1;
+    font-size: 1.8rem;
+    box-shadow: 0 0px 10px rgba(0, 0, 0, 0.1);
+} 
+
+.testimonials .tleft .tlbottom .nextPrevBtns .goBtn.next {
+    background: #2eb3ff;
+}
+
+.testimonials .tleft .tlbottom .nextPrevBtns .goBtn i {
+    opacity: 0.4;
+}
+
+.testimonials .tmid {
+    display: flex;
+    justify-content: center ;
+    align-items: end;
+}
+
+.testimonials .tmid .img {
+    width: 35rem;
+    height: 25rem;
+    overflow: hidden;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    margin-top: 15rem;
+}
+
+.testimonials .tmid .img img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.tright {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 11rem;
+}
+
+.testimonials .tright .bottom img {
+    width: 5rem;
+}
+
+.testimonials .tright .top {
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+
+.testimonials .tright .top .current {
+    font-size: 4rem;
+}
+
+.testimonials .tright .top .total {
+    font-size: 2rem;
+    padding-bottom: 0.5rem;
+    opacity: 0.4;
 }
