@@ -759,7 +759,7 @@ main .right a {
     grid-template-columns: 8fr 7fr 1fr;
     min-height: 20rem;
     margin: 4rem;
-    margin-bottom: 20rem;
+    margin-bottom: 2rem;
 }
 
 .testimonials .tleft {
@@ -898,4 +898,281 @@ main .right a {
     font-size: 2rem;
     padding-bottom: 0.5rem;
     opacity: 0.4;
+}
+
+
+/* FAQs styles */
+
+.faq {
+    padding: 3rem;
+    background: #f6f8fc;
+    border-radius: 50px;
+}
+
+.faq .fheading {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.faq .fheading .headerTxt {
+    font-size: 1.5rem;
+    padding: 0.5rem 1.5rem;
+    border: 1px solid #eaeaea;
+    border-radius: 30px;
+}
+
+.faq .fheading .headerDesc {
+    font-size: 2rem;
+    width: 50%;
+}
+
+.faq .fbelow {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-gap: 2rem;
+    width: 100%;
+    margin-top: 2rem;
+}
+
+.faq .fbelow .left {
+    padding: 1rem;
+}
+
+.faq .fbelow .left img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    border-radius: 30px;
+}
+
+.faq .fbelow .faqs {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 2rem;
+}
+
+.faq .fbelow .faqs .afaq {
+    background: white;
+    width: 100%;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.5rem;
+    border-radius: 10px;
+}
+
+.faq .fbelow .faqs .afaq .btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.5rem;
+    height: auto;
+    width: auto;
+    aspect-ratio: 1 / 1;
+    border-radius: 50%;
+    background: #0d1a2d;
+    color: white;
+}
+
+.faq .flast {
+    padding: 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.5rem;
+}
+
+.faq .flast button {
+    padding: 0.75rem 1.25rem;
+    border-radius: 30px;
+    background: #2eb3ff;
+    border: none;
+    outline: none;
+    color: white;
+    font-size: 1.8rem;
+    font-weight: 100;
+}
+
+.Webcta {
+    margin: 6rem auto;
+    padding: 3rem;
+    border: 1px solid black;
+    width: 75%;
+    background: url(./assets/images/ctaimg.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 50px;
+}
+
+.Webcta .ctaHead {
+    font-size: 1.3rem;
+    padding: 0.75rem 1.25rem;
+    margin: 1rem 0;
+    background: linear-gradient(to right, rgba(255, 255, 255, 0.616), transparent);
+    border-radius: 30px;
+    width: fit-content;
+    backdrop-filter: blur(20px);
+    color: white;
+}
+
+.Webcta .ctamid {
+    font-size:3rem;
+    width: 65%;
+    color: white;
+    margin: 2rem 0;
+}
+
+.Webcta .ctaInputBox {
+    position: relative;
+    margin: 2rem 0;
+    width: 30%;
+}
+
+.Webcta .ctaInputBox .ctaInput  {
+    width: 100%;
+    font-size: 1.5rem;
+    padding: 1rem 1.5rem;
+    padding-right: 25%;
+    background: #0d1a2d;
+    outline: none;
+    border: none;
+    border-radius: 30px;
+    color: white;
+}
+
+.Webcta .ctaInputBox .send {
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #2eb3ff;
+    width: auto;
+    height: auto;
+    aspect-ratio: 1 / 1;
+    border: none;
+    outline: none;
+    font-size: 2rem;
+    border-radius: 50%;
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    padding: 0.5rem;
+    transform: translateY(-50%);
+    font-size: 1.5rem;
+}
+
+.Webcta .ctaInputBox .ctaInput::placeholder {
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 1.5rem;
+}
+
+footer {
+    background: #0d1a2d;
+    color: white;
+    /* padding: 3rem; */
+}
+
+footer .toptop {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer .toptop .toptopleft {
+    font-size: 2rem;
+    width: 45%;
+}
+
+footer .toptop .toptopright {
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+footer .toptop .toptopright .socialMedias {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+footer .toptop .toptopright .socialMedia {
+    background: #000;
+    padding: 0.75rem 1.25rem;
+    border-radius: 30px;
+    font-size: 1.2rem;
+}
+
+footer .toptop .toptopright .smhead {
+    font-size: 1.2rem;
+    padding-left: 1rem;
+}
+
+footer .topbottom button {
+    background: #2eb3ff;
+    border: none;
+    outline: none;
+    padding: 0.75rem 1.25rem;
+    font-size: 1.5rem;
+    border-radius: 30px;
+    color: white;
+    margin-top: 3rem;
+    margin-bottom: 5rem;
+}
+
+footer .footerTop {
+    border-bottom: 1px solid #eaeaea9f;
+    padding: 3rem;
+}
+
+footer .footerbottom {
+    padding: 3rem;
+}
+
+footer .bottomtop {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+}
+
+footer .bottomtop .bt1 {
+    font-size: 10rem;
+}
+
+footer .bottomtop .bt2 {
+    display: flex;
+    justify-content: space-around;
+}
+
+footer .bottomtop .bt2under {
+    list-style-type: none;
+    font-size: 1.2rem;
+    width: 50%;
+}
+
+footer .bottomtop .bt2under li{
+    padding: 0.5rem;
+}
+
+footer .bottomtop .bt2under li:nth-child(1) {
+    opacity: 0.6;
+}
+
+footer .bottombottom {
+    margin-bottom: -2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    font-size: 1rem;
+    opacity: 0.6;
 }
